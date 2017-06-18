@@ -1,3 +1,7 @@
+'''
+Copies A2:C4 from worksheet1.xlsx to new row(s) starting at the end of worksheet2.xlsx, then saves it as worksheet3.xlsx
+'''
+
 from win32com.client import Dispatch
 wkbk1 = "C:\\path\\to\\worksheet1.xlsx"
 wkbk2 = "C:\\path\\to\\worksheet2.xlsx"
@@ -26,5 +30,11 @@ print(destrange)
 excel.Range(destrange).Select()
 excel.Selection.PasteSpecial(Paste=-4122)
 
+# Excel requires the user to press enter after paste()
+# It says "select destination and press enter or choose paste"
+# This simulates pressing of the enter key:
+shell = Dispatch("WScript.Shell")
+shell.SendKeys("{ENTER}", 0)
+
 excel.ScreenUpdating = True
-#ws.SaveAs(wkbk3)
+ws.SaveAs(wkbk3)
