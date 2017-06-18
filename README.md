@@ -12,14 +12,21 @@ sudo apt install python pip python-opencv python-gtk2-dev
 
 Install [Python for Windows](https://www.python.org/downloads/windows/)
 
+Add the location of python.exe to your PATH environment variable
+
 Download [Pip](https://bootstrap.pypa.io/get-pip.py)
 
-Wherever python.exe is, add that to your PATH environment variable
-
-Open command line and run the following commands:
+Go to the location of get-pip.py in command prompt and run:
 
 ```
 python get-pip.py
+```
+
+Add the location of pip.exe to your PATH environment variable
+
+Run this in a command prompt
+
+```
 pip install pypiwin32
 ```
 
