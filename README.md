@@ -2,7 +2,13 @@
 
 Simple examples of automation of excel via python
 
-## Windows Prerequisites
+## Install Prerequisites (Ubuntu Linux)
+
+```
+sudo apt install python pip python-opencv python-gtk2-dev
+```
+
+## Install Prerequisites (Windows 10)
 
 Install [Python for Windows](https://www.python.org/downloads/windows/)
 
