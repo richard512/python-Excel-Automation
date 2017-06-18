@@ -16,3 +16,5 @@ Open command line and run the following commands:
 python get-pip.py
 pip install pypiwin32
 ```
+
+If you need GTK, follow [this guide](https://www.gtk.org/download/windows.php)
