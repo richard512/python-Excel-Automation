@@ -14,6 +14,13 @@ Most of these scripts were built to run on linux. Some were built to run on wind
 | win32com  | none  | strong  |
 
 
+| script | platform(s) it works on |
+| ------------- | ------------- |
+| autoclicker.py | linux |
+| copyPaste.py | windows |
+| dispatch.win32com.py | windows |
+| findPhotoWithinPhoto.py | linux |
+
 ## Install Prerequisites (Ubuntu Linux)
 
 ```
