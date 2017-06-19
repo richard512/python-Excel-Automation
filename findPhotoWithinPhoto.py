@@ -1,13 +1,12 @@
 '''
 Uses OpenCV to find what part of an image (large_image.png) contains another image (small_image.png)
-github.com/richard512
 '''
 
 import cv2
 
 if cv2.__version__[:1] == '2':
-	from cv2 import cv
-	method = cv.CV_TM_SQDIFF_NORMED
+	import cv2 as cv
+	method = cv2.TM_SQDIFF_NORMED
 elif cv2.__version__[:1] == '3':
 	import cv2 as cv
 	method = cv2.TM_SQDIFF_NORMED
