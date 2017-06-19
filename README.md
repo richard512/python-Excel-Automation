@@ -22,7 +22,6 @@ Most of these scripts were built to run on linux. Some were built to run on wind
 | dispatch.win32com.py | windows |
 | findPhotoWithinPhoto.py | linux |
 | openpyxl.py | both |
-| openpyxl.py | both |
 | runMacro.py | windows |
 | time.py | both |
 | time.xlsm | windows |
