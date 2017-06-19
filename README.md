@@ -55,6 +55,7 @@ Run this in a command prompt
 ```
 pip install pypiwin32
 pip install xlrd
+pip install openpyxl
 ```
 
 Download the latest OpenCV whl (wheel) file from [here](http://www.lfd.uci.edu/~gohlke/pythonlibs/#opencv) then install it like this:
