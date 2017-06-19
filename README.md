@@ -61,7 +61,9 @@ pip install pypiwin32
 Download the latest opencv whl file from [here](http://www.lfd.uci.edu/~gohlke/pythonlibs/) then install it like this:
 
 ```
-pip install opencv_python‑2.4.13.2‑cp27‑cp27m‑win32.whl
+pip install opencv_python-3.2.0-cp36-cp36m-win32.whl
 ```
+
+Might need [Visual C++ 2015 redistributable](https://www.microsoft.com/en-us/download/details.aspx?id=48145)
 
 If you need GTK, follow [this guide](https://www.gtk.org/download/windows.php)
