@@ -3,16 +3,16 @@ Copies A2:C4 from worksheet1.xlsx to new row(s) starting at the end of worksheet
 '''
 
 from win32com.client import Dispatch
-wkbk1 = "C:\\path\\to\\worksheet1.xlsx"
-wkbk2 = "C:\\path\\to\\worksheet2.xlsx"
-wkbk3 = "C:\\path\\to\\worksheet3.xlsx"
+wkbk1 = "worksheet1.xlsx"
+wkbk2 = "worksheet2.xlsx"
+wkbk3 = "worksheet3.csv"
 excel = Dispatch("Excel.Application")
 excel.Visible = 1
 excel.ScreenUpdating = False
 
 # copy from source
 source = excel.Workbooks.Open(wkbk1)
-excel.Range("A2:C4").Select()
+excel.Range("A2:D4").Select()
 excel.Selection.Copy()
 
 # paste (appended) to target
@@ -37,4 +37,4 @@ shell = Dispatch("WScript.Shell")
 shell.SendKeys("{ENTER}", 0)
 
 excel.ScreenUpdating = True
-ws.SaveAs(wkbk3)
+ws.SaveAs(wkbk3, 24) # 24 = csv format
