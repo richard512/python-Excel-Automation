@@ -6,7 +6,7 @@ Simple examples of automation of excel via python
 
 Most of these scripts were built to run on linux. Some were built to run on windows. Some work on both.
 
-| Library  | Linux support | Windows support |
+| Python Library Name  | Linux support | Windows support |
 | ------------- | ------------- | ------------- |
 | GTK  | strong  | weak  |
 | cv2 (opencv)  | strong  | weak  |
