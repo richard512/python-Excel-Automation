@@ -59,4 +59,10 @@ Run this in a command prompt
 pip install pypiwin32
 ```
 
+Download the latest opencv whl file from [here](http://www.lfd.uci.edu/~gohlke/pythonlibs/) then install it like this:
+
+```
+pip install opencv_python‑2.4.13.2‑cp27‑cp27m‑win32.whl
+```
+
 If you need GTK, follow [this guide](https://www.gtk.org/download/windows.php)
