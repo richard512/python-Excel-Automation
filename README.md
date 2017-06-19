@@ -1,6 +1,6 @@
 # Python-Excel-Automation
 
-Simple examples of automation of excel via python
+Examples of automation of excel via python
 
 ## Contents and compatibility
 
@@ -9,12 +9,12 @@ Simple examples of automation of excel via python
 | autoclicker.py | linux | uses GTK to check a pixel on the screen. if it's a specified color, the script does a left mouse click |
 | copyPaste.py | windows | uses win32com to append one xlsx to another, then saves to csv |
 | findPhotoWithinPhoto.py | both | uses opencv to find the location of an image within another image. useful for gui automation |
-| openpyxlTest.py | both | uses openpyxl to generate a simple spreadsheet |
+| openpyxlTest.py | both | uses openpyxl to generate a spreadsheet |
 | runMacro.py | windows | uses win32com and excel com to run a VBA function inside of time.xlsm |
 | time.py | both | outputs the current date and time |
 | time.xlsm | windows | contains a button which executes a VBA function which runs time.py 3 times sequentially without clobbering |
-| worksheet1.xlsx | both | simple spreadsheet, with functions in the "total" row |
-| worksheet2.xlsx | both | simple spreadsheet, with functions in the "total" row |
+| worksheet1.xlsx | both | a spreadsheet with functions in the "total" row |
+| worksheet2.xlsx | both | a spreadsheet with functions in the "total" row |
 | xlrdTest.py | both | uses xlrd to enumerate the contents of worksheet1.xlsx |
 
 | Python Library Name  | Linux support | Windows support |
