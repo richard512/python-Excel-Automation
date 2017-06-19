@@ -64,6 +64,6 @@ Download the latest opencv whl file from [here](http://www.lfd.uci.edu/~gohlke/p
 pip install opencv_python-3.2.0-cp36-cp36m-win32.whl
 ```
 
-Might need [Visual C++ 2015 redistributable](https://www.microsoft.com/en-us/download/details.aspx?id=48145)
+Might need [Visual C++ 2015 redistributable (vc_redist.x86.exe)](https://www.microsoft.com/en-us/download/details.aspx?id=48145)
 
 If you need GTK, follow [this guide](https://www.gtk.org/download/windows.php)
