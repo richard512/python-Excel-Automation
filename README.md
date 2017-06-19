@@ -9,7 +9,7 @@ Most of these scripts were built to run on linux. Some were built to run on wind
 | Python Library Name  | Linux support | Windows support |
 | ------------- | ------------- | ------------- |
 | GTK  | strong  | weak  |
-| cv2 (opencv)  | strong  | so-so  |
+| cv2 (opencv)  | strong  | wonky install, but it works  |
 | pymouse  | strong  | weak  |
 | win32com  | none  | strong  |
 | numpy  | strong  | strong  |
