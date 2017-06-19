@@ -1,3 +1,7 @@
+'''
+Uses OpenCV to find what part of an image (large_image.png) contains another image (small_image.png)
+'''
+
 import cv2
 
 if cv2.__version__[:1] == '2':
