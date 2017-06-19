@@ -42,9 +42,7 @@ Install [Python for Windows](https://www.python.org/downloads/windows/)
 
 Add the location of python.exe to your PATH environment variable
 
-Download [Pip](https://bootstrap.pypa.io/get-pip.py)
-
-Go to the location of get-pip.py in command prompt and run:
+Download [get-pip.py](https://bootstrap.pypa.io/get-pip.py) and run it in command prompt:
 
 ```
 python get-pip.py
@@ -56,6 +54,7 @@ Run this in a command prompt
 
 ```
 pip install pypiwin32
+pip install xlrd
 ```
 
 Download the latest OpenCV whl (wheel) file from [here](http://www.lfd.uci.edu/~gohlke/pythonlibs/#opencv) then install it like this:
