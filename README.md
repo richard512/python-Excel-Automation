@@ -12,6 +12,7 @@ Most of these scripts were built to run on linux. Some were built to run on wind
 | cv2 (opencv)  | strong  | weak  |
 | pymouse  | strong  | weak  |
 | win32com  | none  | strong  |
+| numpy  | strong  | strong  |
 
 
 | script | platform(s) it works on |
@@ -20,6 +21,15 @@ Most of these scripts were built to run on linux. Some were built to run on wind
 | copyPaste.py | windows |
 | dispatch.win32com.py | windows |
 | findPhotoWithinPhoto.py | linux |
+| openpyxl.py | both |
+| openpyxl.py | both |
+| runMacro.py | windows |
+| time.py | both |
+| time.xlsm | windows |
+| worksheet1.xlsx | both |
+| worksheet2.xlsx | both |
+| xlrd.py | both |
+
 
 ## Install Prerequisites (Ubuntu Linux)
 
