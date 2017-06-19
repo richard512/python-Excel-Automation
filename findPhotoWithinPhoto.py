@@ -1,5 +1,6 @@
 '''
 Uses OpenCV to find what part of an image (large_image.png) contains another image (small_image.png)
+github.com/richard512
 '''
 
 import cv2
