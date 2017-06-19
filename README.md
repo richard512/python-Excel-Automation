@@ -58,7 +58,7 @@ Run this in a command prompt
 pip install pypiwin32
 ```
 
-Download the latest opencv whl file from [here](http://www.lfd.uci.edu/~gohlke/pythonlibs/) then install it like this:
+Download the latest OpenCV whl (wheel) file from [here](http://www.lfd.uci.edu/~gohlke/pythonlibs/#opencv) then install it like this:
 
 ```
 pip install opencv_python-3.2.0-cp36-cp36m-win32.whl
