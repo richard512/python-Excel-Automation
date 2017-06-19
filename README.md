@@ -27,7 +27,7 @@ Most of these scripts were built to run on linux. Some were built to run on wind
 | time.xlsm | windows |
 | worksheet1.xlsx | both |
 | worksheet2.xlsx | both |
-| xlrd.py | both |
+| xlrdtest.py | both |
 
 
 ## Install Prerequisites (Ubuntu Linux)
