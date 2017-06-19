@@ -64,6 +64,8 @@ Download the latest OpenCV whl (wheel) file from [here](http://www.lfd.uci.edu/~
 pip install opencv_python-3.2.0-cp36-cp36m-win32.whl
 ```
 
+or get the [official opencv 2.4.13 win pack](https://sourceforge.net/projects/opencvlibrary/files/opencv-win/2.4.13/opencv-2.4.13.exe/download)
+
 Might need [Visual C++ 2015 redistributable (vc_redist.x86.exe)](https://www.microsoft.com/en-us/download/details.aspx?id=48145) for OpenCV
 
 If you need GTK, follow [this guide](https://www.gtk.org/download/windows.php)
