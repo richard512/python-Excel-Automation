@@ -4,17 +4,6 @@ Simple examples of automation of excel via python
 
 ## Compatibility
 
-Most of these scripts were built to run on linux. Some were built to run on windows. Some work on both.
-
-| Python Library Name  | Linux support | Windows support |
-| ------------- | ------------- | ------------- |
-| GTK  | strong  | weak  |
-| cv2 (opencv)  | strong  | wonky install, but works  |
-| pymouse  | strong  | weak  |
-| win32com  | none  | strong  |
-| numpy  | strong  | strong  |
-
-
 | script | platform(s) it works on |
 | ------------- | ------------- |
 | autoclicker.py | linux |
@@ -29,6 +18,13 @@ Most of these scripts were built to run on linux. Some were built to run on wind
 | worksheet2.xlsx | both |
 | xlrdTest.py | both |
 
+| Python Library Name  | Linux support | Windows support |
+| ------------- | ------------- | ------------- |
+| GTK  | strong  | weak  |
+| cv2 (opencv)  | strong  | wonky install, but works  |
+| pymouse  | strong  | weak  |
+| win32com  | none  | strong  |
+| numpy  | strong  | strong  |
 
 ## Install Prerequisites (Ubuntu Linux)
 
