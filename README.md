@@ -1,6 +1,6 @@
 # Python-Excel-Automation
 
-Examples of automation of excel via python
+Examples of automation of excel via python, and related useful things
 
 ## Contents and compatibility
 
