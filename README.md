@@ -4,19 +4,19 @@ Simple examples of automation of excel via python
 
 ## Compatibility
 
-| script | platform(s) it works on |
-| ------------- | ------------- |
-| autoclicker.py | linux |
-| copyPaste.py | windows |
-| dispatch.win32com.py | windows |
-| findPhotoWithinPhoto.py | both |
-| openpyxlTest.py | both |
-| runMacro.py | windows |
-| time.py | both |
-| time.xlsm | windows |
-| worksheet1.xlsx | both |
-| worksheet2.xlsx | both |
-| xlrdTest.py | both |
+| script | platform(s) it works on | what it does |
+| ------------- | ------------- | ------------- |
+| autoclicker.py | linux | checks a pixel on the screen. if it's a specified color, the script does a left mouse click |
+| copyPaste.py | windows | appends one xlsx to another, then saves to csv |
+| dispatch.win32com.py | windows | |
+| findPhotoWithinPhoto.py | both | finds the location of an image within another image. useful for gui automation |
+| openpyxlTest.py | both | uses openpyxl to generate a simple spreadsheet |
+| runMacro.py | windows | uses win32com and excel com to run a VBA function inside of time.xlsm |
+| time.py | both | outputs the current date and time |
+| time.xlsm | windows | contains a button which executes a VBA function which runs time.py 3 times sequentially without clobbering |
+| worksheet1.xlsx | both | simple spreadsheet, with functions in the "total" row |
+| worksheet2.xlsx | both | simple spreadsheet, with functions in the "total" row |
+| xlrdTest.py | both | uses xlrd to enumerate the contents of worksheet1.xlsx |
 
 | Python Library Name  | Linux support | Windows support |
 | ------------- | ------------- | ------------- |
