@@ -21,13 +21,13 @@ Most of these scripts were built to run on linux. Some were built to run on wind
 | copyPaste.py | windows |
 | dispatch.win32com.py | windows |
 | findPhotoWithinPhoto.py | both |
-| openpyxl.py | both |
+| openpyxlTest.py | both |
 | runMacro.py | windows |
 | time.py | both |
 | time.xlsm | windows |
 | worksheet1.xlsx | both |
 | worksheet2.xlsx | both |
-| xlrdtest.py | both |
+| xlrdTest.py | both |
 
 
 ## Install Prerequisites (Ubuntu Linux)
