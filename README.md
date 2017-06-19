@@ -19,9 +19,9 @@ Simple examples of automation of excel via python
 
 | Python Library Name  | Linux support | Windows support |
 | ------------- | ------------- | ------------- |
-| GTK  | strong  | weak  |
+| GTK  | strong  | possible to install, but not easily  |
 | cv2 (opencv)  | strong  | wonky install, but works  |
-| pymouse  | strong  | weak  |
+| pymouse  | strong  | doesn't seem to work, though it looks like it should  |
 | win32com  | none  | strong  |
 | numpy  | strong  | strong  |
 
