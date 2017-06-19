@@ -2,6 +2,18 @@
 
 Simple examples of automation of excel via python
 
+## Compatibility
+
+Most of these scripts were built to run on linux. Some were built to run on windows. Some work on both.
+
+| Library  | Linux support | Windows support |
+| ------------- | ------------- | ------------- |
+| GTK  | strong  | weak  |
+| cv2 (opencv)  | strong  | weak  |
+| pymouse  | strong  | weak  |
+| win32com  | none  | strong  |
+
+
 ## Install Prerequisites (Ubuntu Linux)
 
 ```
