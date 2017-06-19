@@ -1,8 +1,8 @@
 import os
 import win32com.client
 
-excelFile = "C:\Full Location\To\excelsheet.xlsm"
-macroToRun = "excelsheet.xlsm!modulename.macroname"
+excelFile = "time.xlsm"
+macroToRun = "time.xlsm!Module1.Button1_Click"
 
 if os.path.exists(excelFile):
     xl = win32com.client.Dispatch("Excel.Application")
