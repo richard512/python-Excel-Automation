@@ -9,7 +9,7 @@ Most of these scripts were built to run on linux. Some were built to run on wind
 | Python Library Name  | Linux support | Windows support |
 | ------------- | ------------- | ------------- |
 | GTK  | strong  | weak  |
-| cv2 (opencv)  | strong  | wonky install, but it works  |
+| cv2 (opencv)  | strong  | wonky install, but works  |
 | pymouse  | strong  | weak  |
 | win32com  | none  | strong  |
 | numpy  | strong  | strong  |
@@ -20,7 +20,7 @@ Most of these scripts were built to run on linux. Some were built to run on wind
 | autoclicker.py | linux |
 | copyPaste.py | windows |
 | dispatch.win32com.py | windows |
-| findPhotoWithinPhoto.py | linux |
+| findPhotoWithinPhoto.py | both |
 | openpyxl.py | both |
 | runMacro.py | windows |
 | time.py | both |
@@ -63,8 +63,6 @@ Download the latest OpenCV whl (wheel) file from [here](http://www.lfd.uci.edu/~
 ```
 pip install opencv_python-3.2.0-cp36-cp36m-win32.whl
 ```
-
-or get the [official opencv 2.4.13 win pack](https://sourceforge.net/projects/opencvlibrary/files/opencv-win/2.4.13/opencv-2.4.13.exe/download)
 
 Might need [Visual C++ 2015 redistributable (vc_redist.x86.exe)](https://www.microsoft.com/en-us/download/details.aspx?id=48145) for OpenCV
 
