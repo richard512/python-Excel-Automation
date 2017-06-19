@@ -2,14 +2,13 @@
 
 Simple examples of automation of excel via python
 
-## Compatibility
+## Contents and compatibility
 
 | script | platform(s) it works on | what it does |
 | ------------- | ------------- | ------------- |
-| autoclicker.py | linux | checks a pixel on the screen. if it's a specified color, the script does a left mouse click |
-| copyPaste.py | windows | appends one xlsx to another, then saves to csv |
-| dispatch.win32com.py | windows | |
-| findPhotoWithinPhoto.py | both | finds the location of an image within another image. useful for gui automation |
+| autoclicker.py | linux | uses GTK to check a pixel on the screen. if it's a specified color, the script does a left mouse click |
+| copyPaste.py | windows | uses win32com to append one xlsx to another, then saves to csv |
+| findPhotoWithinPhoto.py | both | uses opencv to find the location of an image within another image. useful for gui automation |
 | openpyxlTest.py | both | uses openpyxl to generate a simple spreadsheet |
 | runMacro.py | windows | uses win32com and excel com to run a VBA function inside of time.xlsm |
 | time.py | both | outputs the current date and time |
