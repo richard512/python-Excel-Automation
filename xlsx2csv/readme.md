@@ -2,7 +2,7 @@
 
 ## What it does
 
-Converts an xlsx file into a csv file, plus some custom edits
+Converts an xlsx file (plus some custom edits) into a csv file, and adds the results to a csv file
 
 ## Example usage
 
