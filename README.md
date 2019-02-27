@@ -6,7 +6,7 @@ Examples of automation of excel via python, and related useful things
 
 | script | platform(s) it works on | what it does |
 | ------------- | ------------- | ------------- |
-| autoclicker.py | linux | uses GTK to check a pixel on the screen. if it's a specified color, the script does a left mouse click |
+| autoclicker.py | linux+Windows | uses GTK to check a pixel on the screen. if it's a specified color, the script does a left mouse click |
 | copyPaste.py | windows | uses win32com to append one xlsx to another, then saves to csv |
 | findPhotoWithinPhoto.py | both | uses opencv to find the location of an image within another image. useful for gui automation |
 | openpyxlTest.py | both | uses openpyxl to generate a spreadsheet |
